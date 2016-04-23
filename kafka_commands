@@ -1,0 +1,17 @@
+#Starting zookeeper
+${KAFKA_HOME}/bin/zookeeper-server-start.sh config/zookeeper.properties
+
+#Starting kafka
+${KAFKA_HOME}/bin/kafka-server-start.sh config/server.properties
+
+#creating a kafka topic
+${KAFKA_HOME}/bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic kafkatopic
+
+#to get a list of topics on any kafka server
+${KAFKA_HOME}/bin/kafka-topics.sh --list --zookeeper localhost:2181
+
+#Following command is used to start the console-based producer in a new console window to send the messages
+${KAFKA_HOME}/bin/kafka-console-producer.sh --broker-list localhost:9092 --topic kafkatopic
+
+#starting console-based consumer to consume messages
+${KAFKA_HOME}/bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic kafkatopic --from-beginning
