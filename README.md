@@ -9,8 +9,8 @@ Below are the versions of softwares used in Examples
     # Zookeeper - zookeeper-3.4.8
     # Hadoop - hadoop-2.6.0
     
-    
-Download tarballs related to above versions from Apache Mirrors and place their extraction in you home folder (assuming that you have already installed Hadoop in your home folder) and update the .bashrc file accordingly 
+
+Download tarballs related to above versions from Apache Mirrors and place their extraction in **/home/hadoop/work** folder (assuming that you have already installed Hadoop in your mentioned folder) and update the .bashrc file accordingly 
 
 To update .bashrc file use below command
     
