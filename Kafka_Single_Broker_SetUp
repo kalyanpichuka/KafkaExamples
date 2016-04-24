@@ -1,3 +1,3 @@
-# Detailed explanation of the Kafka Single Broker and Single Node setup
+Detailed explanation of the Kafka Single Broker and Single Node setup
 
-Assumed that kafka tarball is extracted under Read.md file
+Assumed that kafka tarball is extracted and bashrc file is updated as mentioned in Read.md file
