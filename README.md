@@ -3,11 +3,11 @@ A repository of Kafka Examples
 
 Below are the versions of softwares used in Examples
 
-## Java - java-8-oracle
-## Scala - scala-2.11.8
-## Kafka - kafka_2.11-0.9.0.0
-## Zookeeper - zookeeper-3.4.8
-## Hadoop - hadoop-2.6.0
+#### Java - java-8-oracle
+#### Scala - scala-2.11.8
+#### Kafka - kafka_2.11-0.9.0.0
+#### Zookeeper - zookeeper-3.4.8
+#### Hadoop - hadoop-2.6.0
     
 
 Download tarballs related to above versions from Apache Mirrors and place their extraction in **/home/hadoop/work** folder (assuming that you have already installed Hadoop in the mentioned folder) and update the .bashrc file accordingly 
